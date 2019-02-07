@@ -40,4 +40,8 @@ public class Circle{
     public void copy(){
 
     }
+
+    public double compareTo(Circle c2){
+        return  this.radious-c2.radious;
+    }
 }
